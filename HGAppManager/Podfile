@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'HGAppManager' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for HGAppManager
+  
+  # 基础平台
+  pod 'HGPlatform', :path => '../HGPlatform/'
+  # 用户管理
+  pod 'HGUser', :path => '../HGUser/'
+  # 订单管理
+  pod 'HGOrder', :path => '../HGOrder/'
+  
+
+end

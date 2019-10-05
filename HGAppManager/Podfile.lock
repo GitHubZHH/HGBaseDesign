@@ -1,0 +1,28 @@
+PODS:
+  - HGOrder (0.0.1):
+    - HGPlatform
+  - HGPlatform (0.0.1)
+  - HGUser (0.0.1):
+    - HGPlatform
+
+DEPENDENCIES:
+  - HGOrder (from `../HGOrder/`)
+  - HGPlatform (from `../HGPlatform/`)
+  - HGUser (from `../HGUser/`)
+
+EXTERNAL SOURCES:
+  HGOrder:
+    :path: "../HGOrder/"
+  HGPlatform:
+    :path: "../HGPlatform/"
+  HGUser:
+    :path: "../HGUser/"
+
+SPEC CHECKSUMS:
+  HGOrder: 519fe10a11b00810215b99024d4bc21313ce8bdb
+  HGPlatform: 547f2eb6045ef6335c13ab392f544ef505e325ad
+  HGUser: 92e99a533993ce8c76c17555741d16fa24befcaf
+
+PODFILE CHECKSUM: a073d599fa4b9bc8269b58f3ee95c21665f3ba3f
+
+COCOAPODS: 1.7.5
